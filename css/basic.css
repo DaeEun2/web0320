@@ -21,6 +21,11 @@ div.menuitem h2 {
 div.menuitem p {
 	width: 90%;
 	font-size: 14pt;
+	display: none;
+}
+
+div.menuitem:hover p {
+	display: inline;
 }
 
 div.menuitem p img {
